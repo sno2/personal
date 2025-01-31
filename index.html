@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carter Snook</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      header,
+      .container,
+      footer {
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      #projects {
+        padding: 0 2rem;
+      }
+
+      .project {
+        border: 1px solid #ccc;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Carter Snook</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <div class="container">
+        <img src="./images/profile.png" alt="Profile Photo" />
+        <h1>Carter Snook</h1>
+        <p style="font-family: 'Courier New', Courier, monospace; color: brown">
+          Software Engineer
+        </p>
+        <p>
+          I am student studying Computer Science at Iowa State University. I
+          enjoy building the backend and frontend of web services.
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <div style="display: flex; gap: 1rem; height: 8rem">
+          <img
+            src="./images/zig.svg"
+            style="background: #000; padding: 1rem"
+            alt="Zig logo"
+          />
+          <img src="./images/wasm.png" alt="WASM logo" />
+        </div>
+        <h3>
+          <a href="https://github.com/sno2/xlang" target="_blank">xlang</a>
+        </h3>
+        <p>
+          Alternative implementation of the ArithLang, VarLang, DefineLang,
+          FuncLang, RefLang, and TypeLang languages used in COM S 3420 at Iowa
+          State University. The languages are described in the textbook
+          <em
+            >An Experiential Introduction to Principles of Programming
+            Languages</em
+          >
+          by Hridesh Rajan.<br /><br />
+          <a href="https://xlang-web.vercel.app/" target="_blank"
+            >View the online playground.</a
+          >
+        </p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+
+        <p>You can reach me at carterms@iastate.edu</p>
+      </div>
+    </section>
+    <footer>&copy; 2025 Carter Snook</footer>
+  </body>
+</html>
